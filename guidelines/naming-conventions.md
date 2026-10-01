@@ -81,7 +81,11 @@ int quantidadeDeProdutos;
 
 Quando a variável estiver no escopo da classe, sendo  _private_  ou  _protected_, ela vira um  _field_  (campo) e deve ser precedida de um "_" (_underscore_,  _padrão_ _lowerCamelCase__)_. Veja no tópico  **Campos**.
 
-> **Nota**: Há uma discussão a respeito do  _underscore_  para campos/variáveis privados(as) no C#, como podemos ver neste link  [http://forums.dotnetfoundation.org/t/underscores-in-private-fields/731](http://forums.dotnetfoundation.org/t/underscores-in-private-fields/731). Realmente não fica claro se os padrões são para UTILIZAR (conforme especificação da equipe de desenvolvimento do .Net Core em  [https://github.com/dotnet/corefx/blob/master/Documentation/coding-guidelines/coding-style.md](https://github.com/dotnet/corefx/blob/master/Documentation/coding-guidelines/coding-style.md)) ou NÃO UTILIZAR (conforme especificado na documentação dos design guidelines do .Net Core em  [https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/general-naming-conventions](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/general-naming-conventions)). O plugin StyleCop condena o uso do  _underscore_  para campos/variáveis privados(as), mas por ser um excelente auxílio visual e por questões de costume, inclusive adotados em outras diversas linguagens de programação, adotamos o estilo de codificação utilizado pela equipe de desenvolvimento do .Net Core.
+> [!NOTE]
+> 
+> **Tome nota:**
+> 
+> Há uma discussão a respeito do  _underscore_  para campos/variáveis privados(as) no C#, como podemos ver neste link  [http://forums.dotnetfoundation.org/t/underscores-in-private-fields/731](http://forums.dotnetfoundation.org/t/underscores-in-private-fields/731). Realmente não fica claro se os padrões são para UTILIZAR (conforme especificação da equipe de desenvolvimento do .Net Core em  [https://github.com/dotnet/corefx/blob/master/Documentation/coding-guidelines/coding-style.md](https://github.com/dotnet/corefx/blob/master/Documentation/coding-guidelines/coding-style.md)) ou NÃO UTILIZAR (conforme especificado na documentação dos design guidelines do .Net Core em  [https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/general-naming-conventions](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/general-naming-conventions)). O plugin StyleCop condena o uso do  _underscore_  para campos/variáveis privados(as), mas por ser um excelente auxílio visual e por questões de costume, inclusive adotados em outras diversas linguagens de programação, adotamos o estilo de codificação utilizado pela equipe de desenvolvimento do .Net Core.
 
 Quando a variável for uma constante ou somente leitura, o padrão deve ser  _PascalCase_.
 
@@ -269,3 +273,14 @@ ValidatorSummary            vs
 <!--------------W----------------->
 WebBrowser                  wbs
 ```
+
+## Referências
+> [!TIP]
+>
+> **Para saber mais**
+> 
+> Experimente pesquisar por _"Programmers Guide under the Object Naming Conventions Section"_ nos buscadores. Palavras-chave adicionais: `kbVBp500`, `kbVBp600`, `kbdse`, `kbDSupport`, `kbVBp`.
+
+- https://github.com/dotnet/corefx#naming-guidelines
+- https://github.com/dotnet/corefx/tree/master/Documentation/coding-guidelines
+- https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines
