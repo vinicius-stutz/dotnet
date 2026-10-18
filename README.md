@@ -48,6 +48,7 @@ Este repositório visa auxiliar em parte dessas demandas com materiais objetivos
 Os materiais estão estruturados em diretórios temáticos para facilitar a consulta conforme o nível de detalhe desejado:
 
 ### 1. Artigos (`articles/`)
+- [.NET Developer Toolbox](articles/dotnet-developer-toolbox.md): O Guia Definitivo da Stack Moderna
 - [**Os 10 Melhores Pacotes NuGet para .NET**](articles/melhores-pacotes-nuget.md): Curadoria de bibliotecas recomendadas para APIs e microsserviços modernos, incluindo ferramentas como [FastEndpoints](https://github.com/dj-nitehawk/FastEndpoints), [Spectre.Console](https://github.com/spectreconsole/spectre.console), entre outras soluções para produtividade e robustez técnica.
 
 ### 2. Diretrizes Técnicas (`guidelines/`)
